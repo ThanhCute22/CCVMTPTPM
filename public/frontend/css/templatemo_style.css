@@ -1,0 +1,102 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Verdana, Arial, san-serif;
+	font-size: 11px;
+	color: #fff;
+	background: #fff;
+}
+
+a:link, a:visited { color: #F1A5D5; text-decoration: underline; } 
+a:active, a:hover { color: #FFFF00; text-decoration:none; }
+
+h1 {
+	margin: 0px;
+	padding: 10px 0 20px 0;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+h2 {
+	margin: 0 0 20px 0;
+	padding: 10px 0 10px 15px;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #440522;
+}
+
+h3 {
+	margin: 0 0 10px 0;
+	padding: 5px 0 5px 10px;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #be457c;
+}
+
+h4 {
+	margin: 0;
+	padding: 5px 0 5px 15px;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #be457c;
+}
+
+p {
+	margin: 0px;
+	padding: 0 0 10px 0;
+	text-align: justify;
+}
+
+.price{
+	font-size:16px;
+	margin-bottom: 10px;
+}
+
+.price span{
+	font-size:16px;
+	color: #ffffff;
+}
+
+.buynow a{
+	clear: both;
+	display: block;
+	float: left;
+	width: 80px;
+	padding: 1px 0;
+	margin: 0 15px 10px 0;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+	background: #be457c;
+	border-bottom: 1px solid #f285b6;
+}
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+	font-size: 1px;	
+}
+
+.cleaner_with_height {
+	clear: both;
+	width: 100%;
+	height: 30px;
+	font-size: 1px;	
+}
+
+#templatemo_container{
+	width: 940px;
+	margin: 0 auto;
+	border: 10px solid #f2d9ef;
+}
