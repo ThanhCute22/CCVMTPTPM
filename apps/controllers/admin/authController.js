@@ -30,12 +30,5 @@ router.post("/login", async function(req, res){
     }
 });
 
-// XỬ LÝ ĐĂNG XUẤT
-router.get("/logout", function(req, res){
-    // Xóa session và chuyển hướng về trang đăng nhập
-    req.session.destroy(function(err) {
-        res.redirect("/admin/auth/login");
-    });
-});
 
 module.exports = router;
