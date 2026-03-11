@@ -13,16 +13,7 @@ router.use(function(req, res, next) {
     next(); 
 });
 
-// Hiển thị danh sách sản phẩm
-router.get("/", async function(req, res){
-    try {
-        const pool = await poolPromise;
-        const result = await pool.request().query('SELECT * FROM Products ORDER BY id DESC');
-        res.render("admin/productManage.ejs", { products: result.recordset });
-    } catch (err) {
-        res.status(500).send("Lỗi lấy dữ liệu: " + err.message);
-    }
-});
+
 
 // Xử lý thêm sản phẩm mới (từ form Popup)
 router.post("/add", async function(req, res){
